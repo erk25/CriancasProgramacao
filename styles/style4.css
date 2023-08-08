@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #41BDD9;
+  margin: 0;
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+  
+  .logo-senai img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    color: rgb(88, 240, 0);
+    background-color: black;
+    border: 5px solid black;
+ }
+  .inscricao {
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 30px;
+ }
+
+
+/* Estilo para o main (main) */
+
+.main {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+
+  .contato {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #20d3fe, #627ffd, #a235ff);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+
+  .contato h1 {
+    color: #000000;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+  .contato p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  .contato form {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contato form label {
+    flex: 1 1 100%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .contato form input,
+  .contato form textarea {
+    flex: 1 1 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .contato form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .contato form button:hover {
+    background-color: #0056b3;
+  }
+  
+/* Estilo para o rodapé (footer) */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilo para a classe final no rodapé */
+.final p {
+  font-size: 16px;
+}

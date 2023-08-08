@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #41BDD9;
+  margin: 0;
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  }
+  
+  .logo-senai img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    color: rgb(88, 240, 0);
+    background-color: black;
+    border: 5px solid black;
+ }
+  .home {
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 30px;
+ }
+
+
+  
+  /* Estilo para o conteúdo principal (main) */
+  main {
+    padding: 20px;
+  }
+  
+  .apresentacao img {
+    width: 40%;
+    margin: auto;
+    display: block;
+
+  }
+  
+  .apresentacao h2, .senai h2 {
+    color: rgba(255, 255, 255, 0.974);
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  .apresentacao p, .senai p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Estilo para o rodapé (footer) */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilo para a classe final no rodapé */
+  .final p {
+    font-size: 16px;
+  }
+  
+  
