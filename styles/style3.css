@@ -1,3 +1,11 @@
+/* Reset de margens e preenchimento padrão para o corpo e elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Uso de unidades relativas para melhor adaptação */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #41BDD9;
@@ -11,39 +19,38 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #333;
-  }
-  
-  .logo-senai img {
-    max-width: 100px;
-    height: auto;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    margin-right: 20px;
-    color: white;
-    border-radius: 5px;
-  }
+}
 
-  a:hover {
-    color: rgb(88, 240, 0);
-    background-color: black;
-    border: 5px solid black;
- }
-  .cronograma {
-    background-color: black;
-    border: 5px solid black;
-    border-radius: 30px;
- }
+.logo-senai img {
+  max-width: 100px;
+  height: auto;
+}
 
+.menu a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  border-radius: 5px;
+}
 
+.menu a:hover {
+  color: rgb(88, 240, 0);
+  background-color: black;
+  border: 5px solid black;
+}
 
- /* Estilo para o conteúdo principal (main) */
+.cronograma {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+/* Estilo para o conteúdo principal (main) */
 main {
   padding: 20px;
 }
 
-main h1{
+main h1 {
   text-align: center;
   font-weight: lighter;
 }
@@ -65,7 +72,8 @@ main h1{
 .equipe-beta {
   margin-left: 370px;
 }
-.equipe-gama{
+
+.equipe-gama {
   margin-left: 400px;
 }
 
@@ -81,14 +89,12 @@ main h1{
   max-width: 100%;
 }
 
-
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
 }
-
 
 .final p {
   font-size: 14px;
@@ -102,7 +108,6 @@ footer {
 
   .equipe-alfa, .equipe-beta, .equipe-gama {
     flex-basis: 100%;
+    margin-left: 0;
   }
 }
-
- 
