@@ -1,3 +1,16 @@
+/* Reset de margens e preenchimento padrão para o corpo */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Defina uma altura mínima de tela para ocupar todo o espaço disponível */
+body {
+  min-height: 100vh;
+}
+
+/* Uso de unidades relativas para melhor adaptação */
+/* Estilos gerais */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #41BDD9;
@@ -11,69 +24,67 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #333;
-  }
-  
-  .logo-senai img {
-    max-width: 100px;
-    height: auto;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    margin-right: 20px;
-    color: white;
-    border-radius: 5px;
-  }
+}
 
-  a:hover {
-    color: rgb(88, 240, 0);
-    background-color: black;
-    border: 5px solid black;
- }
-  .home {
-    background-color: black;
-    border: 5px solid black;
-    border-radius: 30px;
- }
+.logo-senai img {
+  max-width: 100px;
+  height: auto;
+}
 
+.menu a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  border-radius: 5px;
+}
 
-  
-  /* Estilo para o conteúdo principal (main) */
-  main {
-    padding: 20px;
-  }
-  
-  .apresentacao img {
-    width: 40%;
-    margin: auto;
-    display: block;
+/* Uso de pseudo-classe para aprimorar a experiência de hover */
+.menu a:hover {
+  color: rgb(88, 240, 0);
+  background-color: black;
+  border: 5px solid black;
+}
 
-  }
-  
-  .apresentacao h2, .senai h2 {
-    color: rgba(255, 255, 255, 0.974);
-    font-size: 24px;
-    text-align: center;
-    font-weight: lighter;
-  }
-  
-  .apresentacao p, .senai p {
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: justify;
-  }
-  
-  /* Estilo para o rodapé (footer) */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  /* Estilo para a classe final no rodapé */
-  .final p {
-    font-size: 16px;
-  }
-  
-  
+/* Estilo para o link "Home" */
+.menu .home {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+/* Estilo para o conteúdo principal (main) */
+main {
+  padding: 20px;
+}
+
+.apresentacao img {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.apresentacao h2, .senai h2 {
+  color: rgba(255, 255, 255, 0.974);
+  font-size: 24px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.apresentacao p, .senai p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilo para a classe final no rodapé */
+.final p {
+  font-size: 16px;
+}
