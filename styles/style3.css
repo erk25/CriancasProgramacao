@@ -70,11 +70,14 @@ main h1 {
 }
 
 .equipe-beta {
-  margin-left: 370px;
+  margin-left: 500px;
 }
 
+.equipe-alfa {
+  margin-right: 30px;
+}
 .equipe-gama {
-  margin-left: 400px;
+  margin-left: 500px;
 }
 
 .equipe-alfa h1, .equipe-beta h1, .equipe-gama h1 {
