@@ -1,3 +1,16 @@
+/* Reset de margens e preenchimento padrão para o corpo */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Defina uma altura mínima de tela para ocupar todo o espaço disponível */
+body {
+  min-height: 100vh;
+}
+
+/* Uso de unidades relativas para melhor adaptação */
+
 /* Estilos gerais */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -78,5 +91,6 @@ footer {
 .final p {
   font-size: 16px;
 }
+
 
   
