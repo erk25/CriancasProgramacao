@@ -8,8 +8,9 @@
 /* Uso de unidades relativas para melhor adaptação */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #41BDD9;
+  background-color: rgba(41, 61, 170, 0.945);
   margin: 0;
+  color: white;
 }
 
 /* Estilo para o cabeçalho (header) */
@@ -18,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #333;
+  background-color: #09ec60;
 }
 
 .logo-senai img {
@@ -53,6 +54,7 @@ main {
 main h1 {
   text-align: center;
   font-weight: lighter;
+  margin-bottom: 10px;
 }
 
 .equipes {
@@ -61,24 +63,35 @@ main h1 {
   gap: 20px;
 }
 
+.equipe-alfa-texto{
+  text-align: center;
+  margin-right: 70%;
+  height: 1px
+}
+
+.equipe-beta-texto {
+  text-align: center;
+  height: 1px;
+}
+
+.equipe-gama-texto{
+  text-align: center;
+  margin-left: 65%;
+}
+
 .equipe-alfa, .equipe-beta, .equipe-gama {
   flex-basis: calc(33.33% - 20px);
   background-color: #000000;
   padding: 20px;
   border: 1px solid #ddd;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.equipe-beta {
-  margin-left: 500px;
-}
 
-.equipe-alfa {
-  margin-right: 30px;
-}
-.equipe-gama {
-  margin-left: 500px;
-}
 
 .equipe-alfa h1, .equipe-beta h1, .equipe-gama h1 {
   color: hsl(0, 0%, 100%);
@@ -88,7 +101,6 @@ main h1 {
 
 .equipe-alfa img, .equipe-beta img, .equipe-gama img {
   width: 100%;
-  height: auto;
   max-width: 100%;
 }
 
@@ -103,14 +115,4 @@ footer {
   font-size: 14px;
 }
 
-/* Estilo responsivo */
-@media (max-width: 768px) {
-  .equipes {
-    flex-direction: column;
-  }
 
-  .equipe-alfa, .equipe-beta, .equipe-gama {
-    flex-basis: 100%;
-    margin-left: 0;
-  }
-}
