@@ -1,20 +1,15 @@
-/* Reset de margens e preenchimento padrão para o corpo */
-body, html {
+/* Reset de margens e preenchimento padrão para o corpo e elementos */
+* {
   margin: 0;
   padding: 0;
-}
-
-/* Defina uma altura mínima de tela para ocupar todo o espaço disponível */
-body {
-  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 /* Uso de unidades relativas para melhor adaptação */
-/* Estilos gerais */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #41BDD9;
-  margin: 0;
+  background-color: rgba(41, 61, 170, 0.945);
+  color: white;
 }
 
 /* Estilo para o cabeçalho (header) */
@@ -23,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #333;
+  background-color: #09ec60;
 }
 
 .logo-senai img {
@@ -38,15 +33,13 @@ header {
   border-radius: 5px;
 }
 
-/* Uso de pseudo-classe para aprimorar a experiência de hover */
 .menu a:hover {
   color: rgb(88, 240, 0);
   background-color: black;
   border: 5px solid black;
 }
 
-/* Estilo para o link "Home" */
-.menu .home {
+.responsaveis {
   background-color: black;
   border: 5px solid black;
   border-radius: 30px;
@@ -57,23 +50,66 @@ main {
   padding: 20px;
 }
 
-.apresentacao img {
-  width: 40%;
-  margin: auto;
-  display: block;
+.card1, .card2 {
+  background-color: rgba(121, 103, 239, 0.472);
+  border: 1px solid #ddd;
+  width: 500px;
+  display: inline-block;
+  margin-left: 150px;
 }
 
-.apresentacao h2, .senai h2 {
-  color: rgba(255, 255, 255, 0.974);
+.card2 {
+  margin-left: 0;
+}
+
+.apresentacao-profissionais .card1  {
+  border-radius: 20px;
+}
+
+.apresentacao-profissionais .card2 {
+  border-radius: 20px;
+}
+.apresentacao-profissionais h2, .equipes h2 {
+  color: white;
   font-size: 24px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: lighter;
 }
 
-.apresentacao p, .senai p {
+.apresentacao-profissionais h3, .equipes h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.apresentacao-profissionais .card1 img {
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.apresentacao-profissionais .card2 img {
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.apresentacao-profissionais img, .equipes img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.equipes img {
+  width: 60%;
+  margin-left: 300px;
+}
+
+.apresentacao-profissionais p, .equipes p {
   font-size: 16px;
   line-height: 1.6;
-  text-align: justify;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 /* Estilo para o rodapé (footer) */
@@ -88,3 +124,5 @@ footer {
 .final p {
   font-size: 16px;
 }
+
+  
